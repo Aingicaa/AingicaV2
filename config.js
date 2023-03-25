@@ -28,19 +28,19 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 /*============== INFO OWNER ==============*/
 global.sig = 'https://instagram.com/shinkimori_xymizu?igshid=ZDdkNTZiNTM='
-global.syt = 'https://youtu.be/ALQiRR1nzLI'
+global.syt = 'https://youtu.be/'
 global.sgh = 'https://github.com/Aingicaa'
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
+global.sgc = 'https://chat.whatsapp.com/BL7gfgBPGNq4eoD0LLhXlG'
 global.swa = 'wa.me/6281333492552'
-global.swb = 'https://discord.gg/4HvezMAw'
+global.swb = 'https://discord.gg/'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '-'
-global.povo = '-'
-global.pgopay = '-'
-global.ppulsa = '-'
-global.ppulsa2 = '-'
+global.pdana = '6281333492552'
+global.povo = '6281333492552'
+global.pgopay = '6281333492552'
+global.ppulsa = '6281333492552'
+global.ppulsa2 = '6281333492552'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
