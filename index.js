@@ -1,5 +1,4 @@
 console.log('🕖 Starting...')
-
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -8,7 +7,6 @@ import { watchFile, unwatchFile } from 'fs'
 import cfonts from 'cfonts';
 import { createInterface } from 'readline'
 import yargs from 'yargs'
-
 // https://stackoverflow.com/a/50052194
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
@@ -18,7 +16,7 @@ const rl = createInterface(process.stdin, process.stdout)
 
 require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
-say('PutraModz', {
+say('Aingica', {
   font: 'chrome',
   align: 'center',
   colors: ['red', 'magenta']
@@ -28,7 +26,6 @@ say(`⧻ NeXBotz2023 By @PutraModz`, {
   align: 'center',
   colors: ['red', 'magenta']
 })
-
 var isRunning = false
 /**
  * Start a js file
@@ -92,5 +89,4 @@ function start(file) {
     })
   // console.log(p)
 }
-
 start('main.js')
